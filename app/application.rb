@@ -8,9 +8,10 @@ class Application
     num_3 = Kernel.rand(1..3)
 
     resp.write "#{num_1}\n"
+    resp.write "#{num_2}\n"
+    resp.write "#{num_3}\n"
 
-
-    resp.write "Hello, World"
+    if num_1==num_2 && num_2==num_3
 
 
 
